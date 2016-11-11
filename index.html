@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Matthew J. Gimbut</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -41,7 +41,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Matthew J. Gimbut</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,10 +51,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#education">Education</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#languages">Languages</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#technologies">Technologies</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -71,23 +80,77 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive img-circle" src="img/portrait.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name"><a href="MatthewGimbutResume.pdf" style="color: #ffffff;">Matthew Gimbut</a></span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Computer Scientist - Rowan Student - Innovator - Entrepreneur</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- Education Section -->
+    <section class="warning" id="education">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Education</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <img class="img-responsive img-center" src="img/hstransparent.png" alt="" style= "padding-bottom:20px">
+                    </div>
+                    <h2>Monroe Township High School</h2>
+                    <p>2009 - 2013</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-center" src="img/rowantransparent.png" alt="" style= "padding-bottom:20px">
+                    <h2>Rowan University</h2>
+                    <p> I am currently a senior in the Computer Science program. I will be graduating in the Summer of 2017.<p>
+                    <p> GPA: 3.41
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="success"  id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+            <!-- First Featurette -->
+            <div class="featurette">
+                <img class="featurette-image img-circle img-responsive pull-right" src="img/spglobal.png" style = "width: inherit">
+                <h2 class="text-muted">
+                    <span class="text-muted">S&amp;P Global
+                        Market Intelligence</span>
+                </h2>
+                <p> Summer 2016 </p>
+                <p class="lead">I spent this summer interning for S&P Global Market Intelligence in the financial district of New York City.
+                    I led development on an ambitious project, LogReaderLive, which was used extensively by both the development and quality assurance teams to ensure a great user experience for Real-Time Desktop.
+                    LogReaderLive is a web application that reads in several log files produced by Real-Time Desktop at once, each over 2 million lines, and analyzes their content in only a few seconds.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="warning">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -99,7 +162,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/projects/tdf/mainmenu.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -109,7 +172,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/projects/encoder.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -119,10 +182,10 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/projects/acme.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <!--<div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -151,50 +214,156 @@
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Languages</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:95%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    Java
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:80%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    C#
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:80%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                     JavaScript
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:72%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    HTML5
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:65%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    CSS
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:55%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    Visual Basic
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:55%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    SQL
+                </div>
+            </div>
+            <div class="progress" style="height:40px">
+                <div class="progress-bar progress-bar-success active" role="progressbar" style="width:53%; font-size: xx-large; padding-top: 10px; background-color: darkred;">
+                    Ada
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
+    <!-- Tech Section -->
+    <section id="technologies" class="warning">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2>Technologies/Frameworks</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/bootstrap.png" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/github.png" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/intellij.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/webstorm.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/visualstudio.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/vim.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/javafx.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/swing.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/eclipse.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/jquery.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/agile.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/techs/log4j.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="success">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <h3>Email: mattgimbut@gmail.com gimbutm0@students.rowan.edu</h3>
+                    <br>
+                    <h3>Phone: (732)-439-3058</h3>
+                    <br>
+                    <h3><a href="MatthewGimbutResume.pdf" style="color: white;">Resume</a></h3>
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
+                    <!--<form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -230,9 +399,10 @@
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
-                    </form>
+                    </form>-->
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -241,34 +411,19 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-12">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://github.com/MatthewGimbut" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://www.facebook.com/matthew.gimbut" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://www.linkedin.com/in/matthew-gimbut-694934105" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -277,7 +432,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Matthew Gimbut 2016
                     </div>
                 </div>
             </div>
@@ -304,21 +459,30 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>The Dark Forest (Pre-Alpha)</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/projects/tdf/magic.png" class="img-responsive img-centered" alt="">
+
+                            <div class="col-lg-12">
+                                <h3>Description</h3>
+                                <p>The Dark Forest is a 2D RPG built entirely from the ground up. I have led a group of 5 people on the development of the game and have formed my own game development studio, Room C Studios. The Dark Forest is currently in its pre-alpha stage. An alpha release is predicted for Q4 2016.</p>
+                                <h3>Features</h3>
+                                <p>Randomly generated dungeons (loot, enemies, obstacles, etc.)</p>
+                                <p>Dynamic quest system</p>
+                                <p>Stats, leveling, player progression</p>
+                                <p>Hack and slash style combat system</p>
+                                <h3>Technologies</h3>
+                                <p>Java, JavaFX, CSS, Gson (for JSON parsing), Log4j2</p>
+                            </div>
+
+                        </div>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Alpha Release:
+                                    <strong>Winter 2016
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Website:
+                                    <strong><a href="">Room C Studios</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -341,21 +505,22 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Message Encoder</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/projects/encoder.png" class="img-responsive img-centered" alt="">
+                            <div class="col-lg-12">
+                                <h3>Description</h3>
+                                <p>This project was a simple message encoder created to allow friends to communicate in secret messages. It takes a string entered by the user and converts it to a binary representation of each character's ASCII value. The 1s and 0s are then replaced by strings entered by the user. It can also be used to decode messages as well. Messages can be send to others over gmail using the input fields.</p>
+                                <h3>Technologies</h3>
+                                <p>C#, Visual Studio</p>
+                            </div>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>GitHub:
+                                    <strong><a href="https://github.com/MatthewGimbut/Encoder">Repository</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>September 2016
                                     </strong>
                                 </li>
                             </ul>
@@ -378,21 +543,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Acme Airlines</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/projects/acme.png" class="img-responsive img-centered" alt="">
+                            <h3>Description</h3>
+                            <p>This project was created for my Data Abstraction class in Fall 2015. It is meant to imitate software that an actual airline would use. The program keeps track of all listed planes and displays the their routes including time of departure and time of arrival. It also keeps track of individual accounts, allows for reservation and cancellation of seats. The project is fully serialized so progress is stored between uses.</p>
+                            <h3>Features</h3>
+                            <p>Functional email/password validation</p>
+                            <p>Functional registration/login system</p>
+                            <p>Dynamic flight display</p>
+                            <p>Multiple tiers of user accounts</p>
+                            <h3>Technologies</h3>
+                            <p>Java, Swing</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>GitHub:
+                                    <strong><a href="https://github.com/MatthewGimbut/AirlineV1_0">Repository</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>Fall 2015
                                     </strong>
                                 </li>
                             </ul>
@@ -495,11 +664,11 @@
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://startbootstrap.com">Matthew Gimbut</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">October 2016</a>
                                     </strong>
                                 </li>
                                 <li>Service:
