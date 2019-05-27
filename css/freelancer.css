@@ -16,9 +16,8 @@ p.small {
 a,
 a:hover,
 a:focus,
-a:active,
-a.active {
-  color: #520403;
+a:active {
+  color: blue;
   outline: none;
 }
 h1,
@@ -103,6 +102,7 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+
 .navbar-custom {
   background: #182230;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -502,4 +502,8 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+a:link {
+  color: blue;
 }

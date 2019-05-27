@@ -47,10 +47,10 @@
                         <a href="#experience">Experience</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#education">Education</a>
+                            <a href="#portfolio">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
+                        <a href="#education">Education</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#languages">Languages</a>
@@ -100,10 +100,29 @@
                     <span class="text-muted">Lockheed Martin Space</span>
                 </h2>
                 <p> July 2017 - Present </p>
-                <p class="lead"> Did lockheed shitDid lockheed shitDid lockheed shit
+                <p class="lead"> My time at Lockheed Martin has been split between two different projects.</p>
+                <p>
+                    For my first six months at the company, I supported
+                    the maintenance of a legacy Command & Control system which was used to plan and schedule contact times between ground antennas and satellites.
+                    The software was written in an old version of C# which we eventually upgraded to .NET Core 2.1.
+                    It was focused mostly on using <a href="https://en.wikipedia.org/wiki/Phased_array" class=".link-color">phased arrays</a> 
+                    and <a href="https://en.wikipedia.org/wiki/Parabolic_antenna" class=".link-color">parabolic antennas</a> to track and communicate with space vehicles.
+                </p>
+                <p>
+                    After those six months I transitioned into the team which I am still currently on.
+                    Our current goal is to build a <a href="https://en.wikipedia.org/wiki/Network_operations_center">NOC</a> capable of providing enhanced planning and scheduling capabilities for any type of antenna.
+                    In November of 2018, we were able to demonstate our system in use for the <a href="https://www.lockheedmartin.com/en-us/products/verge.html">Verge</a> project which was presented at Amazon's re:Invent.
+                    The system is composed of Java microservies which communicate using REST.
+                    The services run in an <a href="https://en.wikipedia.org/wiki/Apache_Ignite">Apache Ignite</a> cluster and persist data in <a href="https://en.wikipedia.org/wiki/Redis">Redis</a>. 
+                    The NOC can also communicate with other systems though <a href="https://en.wikipedia.org/wiki/Apache_ActiveMQ">Apache ActiveMQ</a>.
+                </p>
+                <p>
+                    My entire career so far at Lockheed Martin has been in an Agile environment.
+                    From January 2018 to April of 2019, I fulfilled the role of Scrum Master for my team of ten people.
+                    As a result of Lockheed Martin not having a dedicated position for Scrum Master, my time was split in half between development and team management. 
                 </p>
             </div>
-            <br><br>
+            <br><hr class=""><br>
             <!-- Featurette -->
             <div class="featurette">
                 <img class="featurette-image img-circle img-responsive pull-right" src="img/spglobal.png" style = "width: inherit">
@@ -111,45 +130,23 @@
                     <span class="text-muted">S&amp;P Global Market Intelligence</span>
                 </h2>
                 <p> Summer 2016 </p>
-                <p class="lead">I spent this summer interning for S&P Global Market Intelligence in the financial district of New York City.
-                    I led development on an ambitious project, LogReaderLive, which was used extensively by both the development and quality assurance teams to ensure a great user experience for Real-Time Desktop.
-                    LogReaderLive is a web application that reads in several log files produced by Real-Time Desktop at once, each over 2 million lines, and analyzes their content in only a few seconds.
+                <p class="lead">I spent the summer interning for S&P Global Market Intelligence in downtown Manhattan.
+                    I led development on LogReaderLive, which was a tool used extensively by both the development and quality assurance teams to parse and analyze the logs output by their software.
+                    LogReaderLive was a web application that read in several log files at once, each with over 2 million lines of text.
+                    It would take just over a second for the tool to parse each file, using regex to break the file up into JSON parseable chunks with associated timestamps.
+                    This experience at S&P was also my first time working in a professional Agile environment with teammates located in the US, France, and India.
                 </p>
             </div>            
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section class="success" id="education">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Education</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-
-            <!-- Featurette -->
-            <div class="featurette">
-                <img class="featurette-image img-responsive pull-right" src="img/rowantransparent.png" style = "width: inherit">
-                <h2 class="text-muted">
-                    <span class="text-muted">Rowan University</span>
-                </h2>
-                <p> Fall 2013 - Spring 2017 </p>
-                <p class="lead"> put some bullshit about your education here </p>
-                <p> GPA: 3.5 </p>
-            </div>
-
-        </div>
-    </section>
-
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="warning">
+    <section id="portfolio" class="success">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Personal Projects</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -184,6 +181,37 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="warning" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Education</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+
+            <!-- Featurette -->
+            <div class="featurette">
+                <img class="featurette-image img-responsive pull-right" src="img/rowantransparent.png" style = "width: inherit">
+                <h2 class="text-muted">
+                    <span class="text-muted">Rowan University</span>
+                </h2>
+                <p> Fall 2013 - Spring 2017 </p>
+                <p class="lead"> 
+                    I started at Rowan University unsure of what career path to take. 
+                    I had been programming as a hobby since middle school and while I knew it was a viable path to take, I wasn't sure if I wanted to potentially ruin my passion for coding by turning it into a job.
+                    My first year of college was composed mostly of general education courses.
+                    It wasn't until the start of my sophomore year when I took an introductory programming elective that I realized how much I missed writing code.
+                    It made me realize that software engineer was for sure the career that I wanted.
+                    I changed my major to Computer Science and finished my degree in the Spring of 2017. 
+                </p>
+                <p> GPA: 3.5 </p>
+            </div>
+
         </div>
     </section>
 
@@ -345,9 +373,6 @@
                         <ul class="list-inline">
                             <li>
                                 <a href="https://github.com/MatthewGimbut" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/matthew.gimbut" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/matthew-gimbut-694934105" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
