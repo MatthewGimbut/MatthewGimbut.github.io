@@ -1,1 +1,1 @@
-Start Bootstrap template used to create webpage.
+Repository for my own personal website, hosted with GitHub pages.
